@@ -1,4 +1,4 @@
-let result = "5678" //สุ่มจริงแล้วพิมพ์ลงในนี้
+//let result = "1111" //สุ่มจริงแล้วพิมพ์ลงในนี้
 
 //ขอโทษเด้ออามาไน ที่หลอกกัน
 
@@ -23,7 +23,7 @@ function display_a() {
                 // เมื่อครบ 5 วินาที, หยุดการสุ่ม
                 if (elapsedTime >= totalTime) {
                     clearInterval(intervalId);
-                    document.getElementById('1').textContent = result[0];
+                    //document.getElementById('1').textContent = result[0];
                 }
             }, intervalTime); // ดีเลย์ 0.1 วินาที ยิ่งน้อยเลขยิ่งสับไว
 }
@@ -45,7 +45,7 @@ function display_b() {
         // เมื่อครบ 8 วินาที, หยุดการสุ่ม
         if (elapsedTime >= totalTime) {
             clearInterval(intervalId);
-            document.getElementById('2').textContent = result[1];
+            //document.getElementById('2').textContent = result[1];
         }
     }, intervalTime); // ดีเลย์ 0.1 วินาที ยิ่งน้อยเลขยิ่งสับไว
 }
@@ -67,7 +67,7 @@ function display_c() {
         // เมื่อครบ 12 วินาที, หยุดการสุ่ม
         if (elapsedTime >= totalTime) {
             clearInterval(intervalId);
-            document.getElementById('3').textContent = result[2];
+            //document.getElementById('3').textContent = result[2];
         }
     }, intervalTime); // ดีเลย์ 0.1 วินาที ยิ่งน้อยเลขยิ่งสับไว
 }
@@ -88,7 +88,7 @@ function display_d() {
         // ถ้าผ่าน 20 วินาทีแล้ว, หยุดการสุ่ม
         if (elapsedTime >= totalTime) {
             clearInterval(intervalId);
-            document.getElementById('4').textContent = result[3];
+            //document.getElementById('4').textContent = result[3];
         }
     }, intervalTime); // ดีเลย์ 0.1 วินาที ยิ่งน้อยเลขยิ่งสับไว
 }
